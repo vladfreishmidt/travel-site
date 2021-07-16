@@ -4,10 +4,10 @@ import MobileMenu from './modules/MobileMenu.js ';
 import RevealOnScroll from './modules/RevealOnScroll';
 import StickyHeader from './modules/StickyHeader';
 
-
 if (module.hot) {
   module.hot.accept();
 }
+
 
 // Create a new instance 
 new MobileMenu();
