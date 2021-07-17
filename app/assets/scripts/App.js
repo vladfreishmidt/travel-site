@@ -3,11 +3,13 @@ import 'lazysizes';
 import MobileMenu from './modules/MobileMenu.js ';
 import RevealOnScroll from './modules/RevealOnScroll';
 import StickyHeader from './modules/StickyHeader';
+import ClientArea from './modules/ClientArea';
 
 if (module.hot) {
   module.hot.accept();
 }
 
+new ClientArea();
 
 // Create a new instance 
 new MobileMenu();
